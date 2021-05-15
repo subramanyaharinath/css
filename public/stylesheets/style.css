@@ -3,33 +3,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-/* Multiple Selectors */
-/* h1, p {
-  font-style: italic;
-} */
 
-/* Tag Selector */
-/* p {
-  font-size: larger;
-} */
-
-/* class selectors */
-/* .container {
-  border: 1px solid crimson;
-  margin-top: 10px;
-} */
-
-/* .section1{
-  font-family: 'roboto'
-} */
-
-/* ID Selector */
-/* #s1 {
-  margin-top: 10px;
-  border: 1px solid crimson;
-} */
-
-/* Decendent Selectors */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -40,44 +14,31 @@ body {
 p {
   letter-spacing: -0.003em;
   line-height: 32px;
-  font-size: 21px;
+  font-size: 18px;
   color:#14213d;
   padding: 2.5px;
   font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-style: normal
+  font-style: normal;
+  text-align: justify;
 }
 
-/* .container > p {
-  color: #e5383b;
-} */
-
-.p1 ~ p {
-  color: #e5383b;
-  font-size: small;
+p {
+  color : #f72585;
+  font-weight: 500;
 }
 
-a {
-  text-decoration: none;
-  
+#content {
+  color : #5f0f40;
+  font-weight: 500;
 }
 
-a:link{
-  color: #000;
-  padding: 10px;
+
+.content {
+  color: #9b5de5;
 }
 
-a:hover{
-  font-size: larger;
-  color: #ee6c4d;
-}
 
-/* a:active{
-  font-size: larger;
-  color: green;
-} */
-
-a:visited{
-  font-size: larger;
-  color: green;
+strong {
+  color: black;
 }
 
